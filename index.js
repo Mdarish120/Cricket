@@ -10,7 +10,7 @@ app.use(bodyParser.json({limit:"30mb" ,extended:true}));
 app.use(bodyParser.urlencoded({limit:"30mb" ,extended:true}));
 app.use(cors());
 
-
+//api routes
 app.use('/api',router);
 
 app.get('/',(req,res)=>{
